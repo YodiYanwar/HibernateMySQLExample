@@ -15,8 +15,8 @@ public class App
         session.beginTransaction();
         
         Student student = new Student();
-        student.setStudentName("Yodi");
-        student.setStudentAge("19");
+        student.setStudentName("Nabilah");
+        student.setStudentAge("16");
 
         session.save(student);
         session.getTransaction().commit();
